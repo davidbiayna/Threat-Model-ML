@@ -1,0 +1,59 @@
+{
+  "baseline": {
+    "best_params": {
+      "clf__C": 0.5,
+      "tfidf__min_df": 2,
+      "tfidf__ngram_range": [
+        1,
+        1
+      ]
+    },
+    "cv_best_f1": 0.8723905723905724,
+    "ap": 0.9264156625722308
+  },
+  "robust": {
+    "best_params": {
+      "clf__C": 1.0,
+      "tfidf__min_df": 2,
+      "tfidf__ngram_range": [
+        1,
+        1
+      ]
+    },
+    "chosen_threshold": 0.52,
+    "ap": 0.9234600988802673,
+    "report": {
+      "0": {
+        "precision": 0.7777777777777778,
+        "recall": 0.7,
+        "f1-score": 0.7368421052631579,
+        "support": 10.0
+      },
+      "1": {
+        "precision": 0.8636363636363636,
+        "recall": 0.9047619047619048,
+        "f1-score": 0.8837209302325582,
+        "support": 21.0
+      },
+      "accuracy": 0.8387096774193549,
+      "macro avg": {
+        "precision": 0.8207070707070707,
+        "recall": 0.8023809523809524,
+        "f1-score": 0.810281517747858,
+        "support": 31.0
+      },
+      "weighted avg": {
+        "precision": 0.835940045617465,
+        "recall": 0.8387096774193549,
+        "f1-score": 0.8363406641133968,
+        "support": 31.0
+      }
+    }
+  },
+  "figures": {
+    "baseline_confmat": "/workspaces/Threat-Model-ML/artifacts/figures/step3_4_confusion_matrix.png",
+    "baseline_pr": "/workspaces/Threat-Model-ML/artifacts/figures/step3_4_pr_curve.png",
+    "robust_confmat": "/workspaces/Threat-Model-ML/artifacts/figures/step3_5_confusion_matrix.png",
+    "robust_pr": "/workspaces/Threat-Model-ML/artifacts/figures/step3_5_pr_curve.png"
+  }
+}

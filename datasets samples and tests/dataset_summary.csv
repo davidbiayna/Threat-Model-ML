@@ -1,0 +1,33 @@
+column,dtype,non_null,nulls,unique
+ThreatID,object,126,0,126
+System,object,126,0,28
+ThreatType,object,0,126,0
+Severity,object,0,126,0
+Date,datetime64[ns],0,126,0
+Description,object,126,0,107
+SourceFile,object,126,0,28
+SourceThreatID,object,82,44,7
+Threat Description,object,64,62,62
+Control Design,object,64,62,57
+Control Owner,object,64,62,16
+Control Mitigation Effectiveness,object,64,62,5
+Threat Mitigation,object,73,53,6
+Action Ref.,object,11,115,6
+Control Weakness,object,11,115,11
+Threat,object,38,88,36
+Recommendation,object,10,116,10
+Step No.,object,6,120,6
+Asset Ref.,object,9,117,2
+Asset Title,object,0,126,0
+Threat Title,object,9,117,9
+Required Control,object,9,117,9
+Control Effectiveness,object,9,117,2
+Recommendations,object,1,125,1
+Kill Chain Stage,object,4,122,2
+Mitigation,object,27,99,27
+Mitigated,object,27,99,7
+Version No.,object,0,126,0
+Date Of Issue,object,0,126,0
+Authors,object,0,126,0
+Status,object,0,126,0
+Comments,object,0,126,0
